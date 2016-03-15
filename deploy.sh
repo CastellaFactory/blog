@@ -6,7 +6,7 @@ rm -rf public/post/*
 
 # Build the project. 
 # if using a theme, replace by `hugo -t <yourtheme>`
-hugo -t material-design
+hugo -t hugo-material-lite
 
 # Go to Public dir
 cd public

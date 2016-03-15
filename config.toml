@@ -1,8 +1,11 @@
 baseurl = "http://castellafactory.github.io"
+description = "カステラを作る工場です"
 languageCode = "ja-jp"
+paginate = 6
 title = "カステラ工場"
-MetaDataFormat = "toml"
 
 [params]
+author = "CastellaFactory"
+copyright = "&copy; CastellaFactory 2016"
 description = "カステラを作る工場です"
-github = "CastellaFactory"
+primary = "indigo"
