@@ -1,11 +1,28 @@
 baseurl = "http://castellafactory.github.io"
-description = "カステラを作る工場です"
-languageCode = "ja-jp"
-paginate = 6
+languageCode = "ja"
 title = "カステラ工場"
+hasCJKLanguage = true
 
 [params]
-author = "CastellaFactory"
-copyright = "&copy; CastellaFactory 2016"
-description = "カステラを作る工場です"
-primary = "indigo"
+Author = "CastellaFactory"
+Copyright = "CastellaFactory"
+GitHubUser = "CastellaFactory"
+LanguageCode = "ja"
+LaunchYear = 2016
+Locale = "ja_JP"
+PoweredByHugo = 'True'
+SidebarRecentLimit = 5
+Subtitle = "カステラを作る工場です"
+TaxonomiesInSidebar = [ 'tags' ]
+
+[taxonomies]
+tag = "tags"
+
+[menu]
+[[menu.social]]
+name = 'Github'
+pre = '<i class="fa fa-fw fa-github-square"></i>' 
+url = 'https://github.com/CastellaFactory'
+[[menu.top]]
+name = 'About'
+url = '/about'

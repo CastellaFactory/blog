@@ -3,7 +3,10 @@
 date = "now()"
 draft = true
 slug = ""
-tags = ["", ""]
+tags = [ "" ]
 title = ""
 
 +++
+
+-----
+
