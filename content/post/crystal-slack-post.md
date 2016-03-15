@@ -130,4 +130,6 @@ Crystal(やRuby)のことを分かっていないので，良くない点が多�
 など，コメントがありましたら
 [CastellaFactory/slack-incoming-webhooks](https://github.com/CastellaFactory/slack-incoming-webhooks)までお願いします．
 
+-----
+
 
