@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:CastellaFactory/CastellaFactory.github.io.git
 	branch = master
+[submodule "bootstrap2hugo"]
+	path = themes/bootstrap2hugo
+	url = git@github.com:CastellaFactory/bootstrap2hugo.git
+	branch = master
