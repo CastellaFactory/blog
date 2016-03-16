@@ -2,6 +2,7 @@ baseurl = "http://castellafactory.github.io"
 languageCode = "ja"
 title = "カステラ工場"
 hasCJKLanguage = true
+googleAnalytics = "UA-75160489-1"
 
 [params]
 Author = "CastellaFactory"
