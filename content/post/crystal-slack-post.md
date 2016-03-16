@@ -74,7 +74,7 @@ slack = Slack::IncomingWebhooks.new "Your WEBHOOK_URL"
 slack.post "Hello"
 ```
 
-![img1](../../images/crystal-slack-post/img1.png)
+![img1](/images/crystal-slack-post/img1.png)
 
 また，通知を送るチャンネルやユーザ名，アイコンの絵文字なども指定することが出来ます．
 
@@ -84,7 +84,7 @@ slack = Slack::IncomingWebhooks.new "Your WEBHOOK_URL", channel: "#hoge",
                                                         icon_emoji: ":ghost:"
 ```
 
-![img2](../../images/crystal-slack-post/img2.png)
+![img2](/images/crystal-slack-post/img2.png)
 
 指定できるオプションは[こちら](https://api.slack.com/methods/chat.postMessage)を参照してください．
 
@@ -108,7 +108,7 @@ attachment = Slack::Attachment.new author_name: "hoge",
 slack.post "text with attachments", attachments: [attachment]
 ```
 
-![img3](../../images/crystal-slack-post/img3.png)
+![img3](/images/crystal-slack-post/img3.png)
 
 指定できるオプションは[こちら](https://api.slack.com/docs/attachments)を参照してください．
 
